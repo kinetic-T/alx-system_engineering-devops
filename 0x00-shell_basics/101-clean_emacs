@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -name '*~' -exec -delete
+find . -name '*~' -exec -delete {} +
